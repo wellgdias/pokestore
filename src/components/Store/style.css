@@ -1,0 +1,12 @@
+.store {
+  padding-top: 7rem;
+  padding-bottom: 1.2rem;
+}
+
+.store__itens {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-rows: auto;
+  z-index: 0;
+}

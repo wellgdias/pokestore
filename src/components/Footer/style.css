@@ -1,0 +1,16 @@
+.footer {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.footer__image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image__logo {
+  width: 3rem;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}

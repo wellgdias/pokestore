@@ -1,0 +1,60 @@
+.topbar {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 20px;
+  top: 0;
+  left: 0;
+}
+
+.topbar__default {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar__logo {
+  width: 20rem;
+  padding: 0.5rem;
+}
+
+.topbar__menu {
+  display: flex;
+  width: 5rem;
+  padding: 0.2rem;
+}
+
+.logo__image,
+.menu__bag,
+.filter__pokeball {
+  width: 100%;
+  cursor: pointer;
+}
+
+.topbar__filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  border: 0.15rem solid #356abc;
+  border-radius: 1.5rem;
+}
+
+.filter_pokemon {
+  width: 100%;
+  padding: 0.2rem 0;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  border: none;
+}
+
+.filter__button {
+  display: flex;
+  justify-content: center;
+  width: 2.5rem;
+  padding: 0.1rem 0;
+  margin-right: 0.2rem;
+}
