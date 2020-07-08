@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaCartPlus } from 'react-icons/fa';
+// eslint-disable-next-line
 import { pokemon } from '../../interfaces';
-
 import './style.css';
 
 let formatter = new Intl.NumberFormat([], {
